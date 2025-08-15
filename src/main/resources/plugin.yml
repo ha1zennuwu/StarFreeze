@@ -1,0 +1,19 @@
+name: StarFreeze
+version: 1.0
+main: dev.ha1zen.StarFreeze
+api-version: 1.21
+folia-supported: true
+commands:
+  freeze:
+    description: Заморозить игрока
+    usage: /freeze <игрок>
+  unfreeze:
+    description: Разморозить игрока
+    usage: /unfreeze <игрок>
+permissions:
+  starfreeze.admin:
+    description: Доступ к командам плагина
+    default: op
+  starfreeze.ignore:
+    description: Обход заморозки
+    default: false
